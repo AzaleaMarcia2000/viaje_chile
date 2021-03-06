@@ -1,0 +1,55 @@
+
+
+.imagen{
+    width: 600px;
+   position: absolute;
+}
+
+#color{
+    background-color: black;
+    margin: 0;
+    font-family: 'Opens Sans', sans-serif;
+}
+
+footer{
+    font-size: 30px;
+}
+
+.hero-section{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 800px) [
+    .card1 {
+        display: :none;
+    }
+
+.header{
+    background-image: url("../img/card1.jpg");
+    background-repeat: no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header.navbar{
+    overflow: hidden;
+    background-color: transparent;border:none|important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: font weight bold;
+}
+
+.navbar a:hover {
+    background: transparent;
+    color: white;
+}
